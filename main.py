@@ -1,15 +1,10 @@
-x = input("enter first name: ")
-y = input("enter last name: ")
+
+x = input("enter a number: ")
+i = 0
 
 
-def addNames(name1, name2):
-    return (name2 + name1)
-
-
-if (y=="bond"):
-  print("hello, 007")
-else:
-  print(f"hello, {addNames(x , y )}")
-
-
+while(i <= 10):
+  i+=1
+  print(int(x) * i)
+  
 
