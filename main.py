@@ -1,9 +1,15 @@
+x = input("enter first name: ")
+y = input("enter last name: ")
 
 
-def addNumbers(num1, num2):
-    return (num1 + num2)
+def addNames(name1, name2):
+    return (name2 + name1)
 
-x = int(input("enter a number "))
-y = int(input("enter another number "))
 
-print(addNumbers(x, y))
+if (y=="bond"):
+  print("hello, 007")
+else:
+  print(f"hello, {addNames(x , y )}")
+
+
+
